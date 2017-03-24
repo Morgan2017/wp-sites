@@ -1,0 +1,13 @@
+.posts .post a.post__btn {
+  color: #fff;
+  background: #f3b45d;
+  padding: 10px 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+/* line 32, ../sass/_clinicDescription.scss */
+.posts .post a.post__btn:hover {
+  background: rgba(243, 153, 29, 0.98);
+  text-decoration: none;
+}

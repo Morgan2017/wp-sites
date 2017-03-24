@@ -1,0 +1,299 @@
+
+@media (min-width: 1600px) {
+	.container {
+		width: 80%;
+		padding: 0;
+		.row {
+			margin: 0;
+			> div {
+				padding: 0;
+			}
+		}
+		> div {
+			padding: 0;
+		}
+	}
+}
+@media (min-width: 1200px) {
+	.menu .menu-item {
+		padding-top: 5px;
+	}
+	.container {
+		width: 80%;
+		padding: 0;
+		.row {
+			margin: 0;
+			> div {
+				padding: 0;
+			}
+		}
+		> div {
+			padding: 0;
+		}
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1596px) {
+
+	.page-header .menu {
+		margin-top: 1.95em;
+	}
+}
+
+@media (max-width: 1199px) {
+	.page-header .menu .menu-item {
+		display: block;
+	}
+	.page-header .menu .menu-item {
+		font-size: .8em;
+		line-height: 1em;
+		margin: 0;
+	}
+	.page-header .menu {
+	    margin-top: 1.75em;
+	}
+	.page-header.fixed .menu {
+		margin-top: .8em;
+	}
+
+	.container {
+		width: 90%;
+		padding: 0;
+		.row {
+			margin: 0;
+			> div {
+				padding: 0;
+			}
+		}
+		> div {
+			padding: 0;
+		}
+	}
+
+	.page-header .menu {
+		margin-top: 45px;
+		.menu-item a {
+			font-size: 1.2em;
+			padding: 5px;
+		}
+	}
+}
+
+@media (max-width: 1184px) {
+
+}
+
+@media (max-width: 1000px) {
+
+}
+
+
+@media (min-width: 768px) {
+
+
+	.navbar-nav>li {
+		float: none;
+	}
+	.navbar-header {
+		float: none;
+	}
+	.navbar-collapse.collapse {
+		display: none !important;
+	}
+}
+
+@media (min-width: 991px) {
+	.navbar-collapse.collapse {
+		display: block !important;
+		height: auto !important;
+		padding-bottom: 0;
+		overflow-x: visible;
+	}
+	.navbar-toggle {
+		display: none;
+	}
+
+	.navbar-nav>li.menu-item {
+		float: left;
+	}
+
+
+
+
+}
+
+@media (max-width: 991px) {
+
+	.navbar-toggle {
+		display: block;
+		margin-top: -10px;
+	}
+
+	#langbutton .mod_changelanguage li a {
+		width: 4.2em;
+		height: 4.2em;
+	}
+
+	.page-header .menu {
+		float: none;
+	}
+	/* .navbar-collapse.collapse {
+		display: none !important;
+	} */
+	.nav-coll, .collapse.in {
+	    position: fixed;
+		z-index: 999999;
+		top: 16%;
+		right: 15px;
+	}
+	.collapse.in {
+		display: block !important;
+	}
+
+	.navbar-nav {
+		background: rgba(68, 68, 68, 0.96);
+	}
+
+	.page-header .logo {
+		margin-top: 2.1em;
+	}
+
+	.navbar-nav {
+		background: rgba(255,255,255,0.8);
+	}
+
+	.page-header .menu {
+		//padding: 2em 1em 1em 1em;
+		text-align: right;
+	}
+
+	.page-header .menu .menu-item {
+		display: block;
+		font-size: 1.2em;
+		line-height: 1.2em;
+		margin: 20px;
+		padding: 0 20px 0 20px;
+		background: #e2c16b;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+	}
+
+	.page-header .menu .menu-item:last-child {
+		margin-right: 20px;
+	}
+
+	.page-header .menu .menu-item a {
+		text-decoration: none;
+		position: relative;
+		color: #fff;
+		outline-offset: 3px;
+		font-weight: 700;
+		-moz-transition: color .3s ease-in-out;
+		-webkit-transition: color .3s ease-in-out;
+		-o-transition: color .3s ease-in-out;
+		-ms-transition: color .3s ease-in-out;
+		transition: color .3s ease-in-out;
+	}
+
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+	.box p {
+		font-size: 14px;
+	}
+}
+
+@media(min-width:768px) and (max-width:979px) {
+
+}
+
+@media (min-width:390px) and (max-width: 767px) {
+
+	.page-header .logo img {
+		// width: 50%;
+	}
+
+	.nav-coll, .collapse.in {
+		top: 15%;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.widget_block {
+		text-align: center;
+	}
+
+	div.post {
+		padding-top: .5em;
+		padding-bottom: 2em;
+	}
+
+}
+
+@media (max-width: 600px) {
+	#social .shariff ul {
+		display: inline-block;
+		width: auto;
+		margin: 20px auto;
+		li {
+			margin: 20px 5px;
+		}
+	}
+	#social .shariff .orientation-horizontal li {
+		float: none;
+	}
+}
+
+@media (max-width: 584px) {
+	.post .post__title {
+		font-size: 1.8em;
+	}
+}
+
+
+@media (max-width: 480px) {
+
+
+
+	.totop {
+		bottom: 20px;
+		right: 20px;
+	}
+
+	#confloater {
+		width: 2em;
+	}
+
+	#confloater a {
+		background-size: 1.4em;
+		@include box-shadow(-0.1em 0 .75em -0.5em #222);
+	}
+
+
+
+}
+
+
+@media (max-width: 389px) {
+
+	.page-header .menu .menu-item {
+		font-size: 1em;
+		line-height: 1em;
+	}
+
+	.page-header .menu .navbar-toggle {
+		position: absolute;
+		right: -24px;
+	}
+
+}
+
+@media (max-width: 321px) {
+	
+
+
+}

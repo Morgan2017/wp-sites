@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="60"
+   height="50"
+   viewBox="0 0 60 50"
+   id="Ebene_1"
+   xml:space="preserve"><defs
+   id="defs13" />
+<path
+   d="M 60,44.66 C 60,47.609 57.609,50 54.66,50 H 5.34 C 2.391,50 0,47.609 0,44.66 V 5.34 C 0,2.391 2.391,0 5.34,0 H 54.66 C 57.609,0 60,2.391 60,5.34 v 39.32 z"
+   id="path3"
+   style="fill:#e2c16b" />
+
+<polygon
+   points="46,23 46,34 30,26 14,34 14,23 30,15 "
+   id="polygon7"
+   style="fill:#ffffff" />
+
+</svg>

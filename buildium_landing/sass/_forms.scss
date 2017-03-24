@@ -1,0 +1,104 @@
+
+.form-control {
+	margin-top: 0;
+	margin-bottom: 8px;
+	font-size: 16px;
+	width: 100%;
+	height: 40px;
+	border: 1px solid #bbb;
+	background: 0;
+	@include border-radius(0);
+}
+
+.form-control:focus {
+    border-color: rgba(57, 120, 163, 0.8);
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(57, 120, 163, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(57, 120, 163, 0.6);
+}
+
+
+#popup_form {
+    padding: 20px;
+}
+
+
+button[type='submit'] {
+	width: 100%;
+    display: inline-block;
+    color: #fff;
+    font-family: $font_1, $font_0;
+    font-size: 20px;
+    padding: 11px 28px;
+    background: #385785;
+    border: 0;
+    @include border-radius(0);
+    @include transition(all 0.3s);
+	// @include border-radius(6px);
+	&:hover {
+		text-decoration: none;
+	    cursor: pointer;
+	    color: #fff;
+	    box-shadow: 0 0 13px #3978a3;
+   		 @include transition(all 0.3s);
+	}
+}
+
+textarea {
+	font-size: 16px;
+	font-family: $font_2, $font_0;
+	margin-bottom: 26px;
+	padding: 20px 10px;
+	width: 100%;
+	color: #555;
+    border: 1px solid #bbb;
+    @include border-radius(0);
+}
+
+
+input:-moz-placeholder { font-family: $font_2, $font_0;}
+
+/* individual: webkit */
+input::-webkit-input-placeholder { font-family: $font_2, $font_0;}
+
+/* individual: mozilla */
+input::-moz-placeholder { font-family: $font_2, $font_0;}
+
+
+
+textarea:-moz-placeholder { font-size: 16px; font-family: $font_2, $font_0;}
+
+/* individual: webkit */
+textarea::-webkit-input-placeholder { font-size: 16px; font-family: $font_2, $font_0;}
+
+/* individual: mozilla */
+textarea::-moz-placeholder { font-size: 16px; font-family: $font_2, $font_0;}
+
+
+/* Page Contact us
+===================================== */
+
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+	outline: 0;
+}
+
+.btn-default:active:hover, 
+.btn-default.active:hover, 
+.open>.dropdown-toggle.btn-default:hover, 
+.btn-default:active:focus, 
+.btn-default.active:focus, 
+.open>.dropdown-toggle.btn-default:focus, 
+.btn-default:active.focus, 
+.btn-default.active.focus, 
+.open>.dropdown-toggle.btn-default.focus {
+	background: rgba(243, 153, 29, 0.98);
+	border: 0;
+	color: rgba(255, 255, 255, 0.88);
+	outline: 0;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+	color: #fff;
+}
+

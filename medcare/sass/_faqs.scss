@@ -1,0 +1,28 @@
+#informationSection, #faqs {
+	.content {
+		padding-top: 60px;
+		padding-bottom: 158px;
+		.posts {
+			.posts__title {
+				font-size: 26px;
+				margin-bottom: 40px;
+			}
+			.post_title {
+				color: #3bc9dc;
+				font-size: 26px;
+			}
+			.post {
+				margin-bottom: 60px;
+				margin-left: -15px;
+				margin-right: -15px;
+				a {
+					color: #3bc9dc;
+				}
+			}
+		}
+	}
+}
+
+#informationSection .post_title a {
+	color: #3bc9dc;
+}

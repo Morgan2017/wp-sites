@@ -1,0 +1,180 @@
+
+.form-control {
+	height: 54px;
+	width: 100%;
+	height: 54px;
+	border: 1px solid #fff;
+	background: 0;
+	@include border-radius(0);
+}
+
+input[type='submit'] {
+	width: 100%;
+	height: 54px;
+	font-size: 23px;
+	background: rgba(243, 153, 29, 0.98);
+	border: 0;
+	color: rgba(255, 255, 255, 0.88);
+	text-transform: uppercase;
+	@include border-radius(0);
+	&:hover {
+		background: #f7a83b;
+		color: $white;
+	}
+}
+
+.left-inner-addon,
+.left-inner-addon2 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 4px;
+	/* width: 436px; */
+	width: 100%;
+}
+
+.left-inner-addon {
+	float: left;
+	margin-right: 4px
+}
+
+.left-inner-addon input,
+.left-inner-addon2 input,
+.left-inner-addon2 + textarea {
+    padding-left: 44px;    
+}
+
+ .left-inner-addon i,
+ .left-inner-addon2 i  {
+	position: absolute;
+	padding: 0;
+	pointer-events: none;
+	left: 12px;
+	top: 16px;
+	font-size: 18px;
+	color: #fff;
+}
+
+
+.form-control:-moz-placeholder { font-family: $font_2, $font_0; font-style:italic; color: #fff;}
+
+/* individual: webkit */
+.form-control::-webkit-input-placeholder { font-family: $font_2, $font_0; font-style:italic; color: #fff;}
+
+/* individual: mozilla */
+.form-control::-moz-placeholder { font-family: $font_2, $font_0; font-style:italic; color: #fff;}
+
+
+/* Page Contact us
+===================================== */
+
+#form_contact {
+	text-align: center;
+	#exampleInputName {
+		margin-right: 4px;
+	}
+	#exampleInputName,
+	#exampleInputName2 {
+		float: left;
+	    width: 333px;
+	}
+	input {
+		margin-bottom: 4px;
+		padding: 0 20px;
+		width: 100%;
+		height: 56px;
+		border: 0;
+	}
+	textarea {
+		margin-bottom: 20px;
+		padding: 20px 20px;
+		width: 100%;
+		border: 0;
+	}
+	input[type="submit"] {
+		width: 170px;
+		margin-bottom: 160px;
+	}
+}
+
+.btn-default:active:hover, 
+.btn-default.active:hover, 
+.open>.dropdown-toggle.btn-default:hover, 
+.btn-default:active:focus, 
+.btn-default.active:focus, 
+.open>.dropdown-toggle.btn-default:focus, 
+.btn-default:active.focus, 
+.btn-default.active.focus, 
+.open>.dropdown-toggle.btn-default.focus {
+	background: rgba(243, 153, 29, 0.98);
+	border: 0;
+	color: rgba(255, 255, 255, 0.88);
+	outline: 0;
+}
+
+
+/* Form POPUP */
+
+.mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content {
+	width: auto;
+	padding: 48px;
+	background: rgba(105, 206, 227, 0.87);
+}
+
+.white-popup-block h1 {
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 28px;
+	line-height: 34px;
+}
+
+.white-popup-block input[type="text"] {
+	width: 300px;
+	margin: 0 0 20px 0;
+	padding: 16px;
+	color: #000;
+	font-size: 16px;
+	border: 1px solid #000;
+}
+
+
+
+#faqs, #informationSection, #contacts {
+	.form-control {
+		margin-bottom: 30px;
+		border: 0;
+		background: rgba(241, 240, 236, 0.7);
+		box-shadow: 0 0 0;
+	}
+	.form-control:-moz-placeholder { font-family: $font_2, $font_0; font-style:normal; color: #555;}
+
+	/* individual: webkit */
+	.form-control::-webkit-input-placeholder { font-family: $font_2, $font_0; font-style:normal; color: #555;}
+
+	/* individual: mozilla */
+	.form-control::-moz-placeholder { font-family: $font_2, $font_0; font-style:normal; color: #555;}
+	
+	.btn-default {
+		padding: 12px 26px;
+	    color: #fff;
+		font-size: 17px;
+	    background-color: #62BFE6;
+	    border: 0;
+	    text-transform: uppercase;
+	    @include border-radius(0);
+	}
+	.btn-default:hover,
+	.btn-default:active:hover, 
+	.btn-default.active:hover, 
+	.open>.dropdown-toggle.btn-default:hover, 
+	.btn-default:active:focus, 
+	.btn-default.active:focus, 
+	.open>.dropdown-toggle.btn-default:focus, 
+	.btn-default:active.focus, 
+	.btn-default.active.focus, 
+	.open>.dropdown-toggle.btn-default.focus {
+		background: rgba(98, 191, 230, 0.84);
+		border: 0;
+		color: rgba(255, 255, 255, 0.88);
+		outline: 0;
+	}
+}

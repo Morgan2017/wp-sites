@@ -1,0 +1,172 @@
+
+.image_about {
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.banner_wr {
+	position: relative;
+    min-height: 356px;
+
+	.banner {
+		position: absolute;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		li {
+			position: relative;
+			margin-top: 30px;
+			width: 25%;
+			height: 358px;
+			float: left;
+			color: rgb(255, 255, 255);
+			box-sizing: border-box;
+			vertical-align: bottom;
+			padding: 25px 29px 20px;
+			background: rgb(98, 191, 230);
+			transition: all 0.3s ease;
+			&:hover {
+				margin-top: 0px;
+				height: 388px;
+				padding-bottom: 50px;
+			}
+			&:nth-child(1) {
+				background: #1fb6d6;
+				a {color: #fff;
+					&:hover {text-decoration: none;}
+				}
+				.title {
+					position: relative;
+					margin-top: 120px;
+				    margin-bottom: 20px;
+					&:before {
+						position: absolute;
+						top: -112px;
+						left: 0;
+						content: url('../img/about_icon1.png');
+					}
+				}
+			}
+			&:nth-child(2) {
+				background: #1abddf;
+				a {
+					color: #fff;
+					&:hover {text-decoration: none;}
+				}
+				.title {
+					position: relative;
+					margin-top: 120px;
+				    margin-bottom: 20px;
+					&:before {
+						position: absolute;
+						top: -112px;
+						left: 0;
+						content: url('../img/about_icon2.png');
+					}
+				}
+			}
+			&:nth-child(3) {
+				background: #37cceb;
+				a {
+					color: #fff;
+					&:hover {text-decoration: none;}
+				}
+				.title {
+					position: relative;
+					margin-top: 120px;
+				    margin-bottom: 20px;
+					&:before {
+						position: absolute;
+						top: -112px;
+						left: 0;
+						content: url('../img/about_icon3.png');
+					}
+				}
+			}
+			&:nth-child(4) {
+				background: #5bd8f3;
+				a {
+					color: #fff;
+					&:hover {text-decoration: none;}
+				}
+				.title {
+					position: relative;
+					margin-top: 120px;
+				    margin-bottom: 20px;
+					&:before {
+						position: absolute;
+						top: -112px;
+						left: 0;
+						content: url('../img/about_icon4.png');
+					}
+				}
+			}
+
+			.title {
+				font-size: 20px;
+				font-family: $font_3, $font_0;
+				margin-top: 17px;
+				& + p {
+					margin-top: 13px;
+				}
+			}
+
+			p {
+				color: $white;
+			}
+		}
+	}
+
+}
+
+
+.box {
+	& .col-md-6:hover .box__img {
+		background: #57aacd;
+	}
+	margin-top: 73px;
+	.box__img {
+		margin-right: 40px;
+		margin-left: -15px;
+		text-align: center;
+		background: #62bfe6;
+		width: 109px;
+		height: 108px;
+		line-height: 8;
+		float: left;
+	}
+
+	.box__text {
+		overflow: hidden;
+		.title {
+			font-size: 20px;
+			font-family: $font_1, $font_0;
+			margin-bottom: 30px;
+			a {
+				color: #000;
+				&:hover {
+					color: #57aacd;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+.who_we_are {
+	.title {
+		font-size: 30px;
+		font-family: $font_2, $font_0;
+		margin-bottom: 60px;
+	}
+	img {
+		margin-bottom: 70px;
+		width: 100%;
+		height: auto;
+	}
+	p {
+		margin-bottom: 36px;
+	}
+}

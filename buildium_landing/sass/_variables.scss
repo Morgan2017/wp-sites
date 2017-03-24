@@ -1,0 +1,32 @@
+//colors
+$white: #ffffff;
+$color_suva_gray_approx: #888888;
+$black: #000000;
+$color_boston_blue_approx: #428bca;
+$border: 2px solid $white;
+
+//fonts
+$font_0: sans-serif;
+$font_1: 'Square721-bt-bold';
+$font_2: 'Roboto';
+$font_3: 'Poppins-Regular';
+$font_4: 'Roboto';
+$font_6: 'fontello';
+
+//@extend-elements
+//original selectors
+//p, blockquote
+%extend_1 {
+	margin: 0 0 10px;
+	font-size: 18px;
+	line-height: 25px;
+	color: $black;
+}
+
+//original selectors
+//a:focus, a:active
+%extend_2 {
+	color: $color_suva_gray_approx;
+	text-decoration: none;
+	outline: none;
+}

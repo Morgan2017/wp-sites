@@ -1,0 +1,275 @@
+@media (min-width: 1200px){
+.border .content {
+    padding-bottom: 80px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.doctor .text_box .border .right-border {
+		width: 308px !important;
+	}
+
+
+}
+@media (max-width: 1199px) and (min-width: 992px){
+	header .order a.popup-with-form{
+	    font-size: 99%;
+	}
+
+	header .tel {
+	    text-align: left;
+	    padding: 23px 5px;
+	}
+	header .tel > p:after {
+		display: none;
+	}
+
+	.doctor .text_box {
+	    padding: 0px 20px 0 120px;
+	}
+	.doctor .text_box .border .right-border {
+		width: 95px !important;
+	}
+
+	
+}
+@media (max-width: 1199px){
+
+	.collapse.in .navbar-nav{
+	    background: rgba(0, 172, 208, .9);
+
+	}
+
+	.posts img {
+		width: 100%;
+		height: auto;
+	}
+
+	.box__img img {
+		width: auto;
+	}
+	
+
+}
+
+
+
+@media (max-width: 1024px){
+
+
+	.slider {
+		height: 670px;
+	}
+
+	.slider #slider-img li {
+		height: 670px;
+	}
+
+
+}
+
+@media (max-width: 767px) {
+	.collapse.in .navbar-nav {
+	    top: 75px;
+	}
+	
+	#error .content, #search .content {
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
+
+
+}
+
+@media (max-width: 570px) {
+
+	
+	.slider {
+		height: 350px;
+	}
+
+	.slider #slider-img li {
+		height: 350px;
+	}
+
+	.slider #slider-img li .fixposition {
+		top: 42%;
+	}
+
+	.slider #slider-img li .fixposition .title_slider {
+		font-size: 28px;
+	}
+
+	.slider #slider-img li .fixposition p:nth-of-type(1) {
+		display: none;
+	}
+
+	.slider #slider-img li .fixposition p {
+		font-size: 18px;
+		margin: 20px 0 46px;
+	}
+
+	.slider #slider-img li img {
+		width: 100%;
+	}
+
+	.rslides_tabs {
+		bottom: 54px;
+	}
+
+
+}
+
+
+
+
+#informationSection .content .post img {
+    width: 100%;
+    min-width: 230px;
+    margin-right: 0px;
+}
+
+
+@media (min-width: 478px) and (max-width: 480px) {
+
+	header .tel > p:after {
+		left: -41%;
+	}
+
+}
+
+@media (max-width: 480px) {
+
+
+	.slider {
+		height: 290px;
+	}
+
+	.slider #slider-img li {
+		height: 290px;
+	}
+
+	.slider #slider-img li img {
+		width: 100%;
+	}
+
+	.rslides_tabs {
+		bottom: 34px;
+	}
+
+	.slider #slider-img li .fixposition {
+		top: 32%;
+		left: 49%;
+	}
+
+	.slider #slider-img li .fixposition .title_slider {
+		font-size: 28px;
+	}
+
+	.slider #slider-img li .fixposition p:nth-of-type(1) {
+		display: none;
+	}
+
+	.slider #slider-img li .fixposition p {
+		font-size: 14px;
+		line-height: 1.4;
+	    margin: 10px 0 16px;
+	}
+
+	.slider #slider-img li .fixposition a {
+		font-size: 16px;
+		padding: 10px 40px;
+	}
+
+
+	.team ul.slick-dots {
+		width: 100%;
+	}
+
+
+
+	.collapse.in .navbar-nav {
+		top: 76px;
+	}
+
+	#clinic .content, #clinicDescription .content {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	#informationSection .content, #faqs .content {
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
+
+
+
+	.doctor .text_box .border .left-border {
+		width: 100%;
+
+	}
+	.doctor .text_box .border .title {
+		font-size: 18px;
+		top: 0.8em;
+		left: 0;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.doctor .text_box .border .content {
+		padding-bottom: 10px;
+	}
+
+	#contacts .content {
+		padding-bottom: 10px;
+		padding-left: 0;
+	}
+
+
+	#aboutUs .content {
+		padding-bottom: 0;
+	}
+
+	#clinic a.post__btn {
+		margin: 0 0 10px;
+	}
+
+	.hr {
+		margin: 20px 0;
+	}
+
+	#thumbnail-slider-next {
+		right: 0;
+	}
+	#thumbnail-slider-prev {
+		left: 0;
+	}
+
+
+}
+
+
+input, textarea, input[type='submit'] {
+	font-family: "Roboto Regular", sans-serif !important;
+}
+
+
+.phone_footer a {
+	color: #fff;
+}
+
+
+#faqs .form-control, #informationSection .form-control, #contacts .form-control {
+	border: 1px solid #ccc;
+    background: rgba(241, 240, 236, 0.7);
+}
+
+
+#search .result__title {
+	margin-bottom: 20px;
+}
+
+
+#search .post img {
+    width: 100%;
+    height: auto;
+}
